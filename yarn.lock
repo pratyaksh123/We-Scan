@@ -2952,7 +2952,7 @@ expo-constants@~9.1.1:
     fbjs "1.0.0"
     uuid "^3.3.2"
 
-expo-file-system@~9.0.1:
+expo-file-system@^9.0.1, expo-file-system@~9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/expo-file-system/-/expo-file-system-9.0.1.tgz#50a6a0b29fbc45413de9f7d38c0695503bf03d7e"
   integrity sha512-xZKv7g0dhFNMjp49+XiZBnApOUu/WlLzwWaruNbBnSgi/HGnSwbHNyk7zuK1RdQ9NndvXu6uT4uW2i67pIrKig==
@@ -2979,7 +2979,15 @@ expo-image-loader@~1.1.1:
   resolved "https://registry.yarnpkg.com/expo-image-loader/-/expo-image-loader-1.1.1.tgz#6c65bd1a41761c8acb91575060579e4864b93394"
   integrity sha512-qI4opRO2D1MGRAbHxYnMBJ4LzKT17KfqbM5oTxNoMZCRNpzB0xsuJrWy5C+0UOkV0vnqQyjvCtynTSawhWnl9A==
 
-expo-permissions@~9.0.1:
+expo-image-picker@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/expo-image-picker/-/expo-image-picker-8.3.0.tgz#5a9daacbc1afa7fdbfd31edb22818524ad0b85e2"
+  integrity sha512-HCF7SumPE4jXH+EhJ19Xw6G8Lxpms1z6Hxdq/kLlzvZGdzH4ZFBqp3NyTO7dtm0dXtjduljpNK7kQfwWtvmIWQ==
+  dependencies:
+    expo-permissions "~9.0.1"
+    uuid "7.0.2"
+
+expo-permissions@^9.0.1, expo-permissions@~9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/expo-permissions/-/expo-permissions-9.0.1.tgz#dc10b58654bbe39bbbed5827369942b01b08055e"
   integrity sha512-CosJgy8XQRN/OFG2JTQDcFxz3XTGi27coCMym/hVXWtQfk0z6PwdRG5IXHfLGuSckwIcgmirrwm2+Zc0X3MmNg==
@@ -4570,6 +4578,11 @@ levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+libgif@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/libgif/-/libgif-0.0.3.tgz#18c86ace0ec98d86d5d984b5dac9cb567f20d20e"
+  integrity sha512-4lJhyr5AQvHIs+Btdqvx0UgUAuZNJhcG6vZS0yYNrYm4B1k9Lo4NxezWR5AQ7EJrXkxmktrx1ZplWJVwRBz/ew==
+
 lines-and-columns@^1.1.6:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
@@ -5190,6 +5203,13 @@ npm-run-path@^4.0.0:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
+
+nsfwjs@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/nsfwjs/-/nsfwjs-2.2.0.tgz#963ade422a44953e6486cb293ba69722fd42fe89"
+  integrity sha512-xNd+wpI7IcaEmtmYYzjOcpcBtR5BLA/nRgtmFe97ujiIqKHn4O0NGQcclfYZXLPknpTa7C6k9b8nzJIKtZPj6w==
+  dependencies:
+    libgif "0.0.3"
 
 nullthrows@^1.1.1:
   version "1.1.1"
@@ -6997,6 +7017,11 @@ utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+
+uuid@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-7.0.2.tgz#7ff5c203467e91f5e0d85cfcbaaf7d2ebbca9be6"
+  integrity sha512-vy9V/+pKG+5ZTYKf+VcphF5Oc6EFiu3W8Nv3P3zIh0EqVI80ZxOzuPfe9EHjkFNvf8+xuTHVeei4Drydlx4zjw==
 
 uuid@^3.3.2, uuid@^3.4.0:
   version "3.4.0"

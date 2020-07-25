@@ -12,6 +12,7 @@ public class BasePackageList {
         new expo.modules.filesystem.FileSystemPackage(),
         new expo.modules.gl.GLPackage(),
         new expo.modules.imageloader.ImageLoaderPackage(),
+        new expo.modules.imagepicker.ImagePickerPackage(),
         new expo.modules.permissions.PermissionsPackage()
     );
   }
