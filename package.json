@@ -1,0 +1,38 @@
+{
+  "name": "CamScanny",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.11.0",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^2.0.1",
+    "@tensorflow/tfjs-react-native": "^0.3.0",
+    "expo-camera": "^8.3.1",
+    "expo-gl": "^8.3.1",
+    "expo-gl-cpp": "^8.3.1",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
+    "react-native-fs": "^2.16.6",
+    "react-native-unimodules": "^0.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/runtime": "^7.10.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.1.0",
+    "eslint": "^7.5.0",
+    "jest": "^26.1.0",
+    "metro-react-native-babel-preset": "^0.61.0",
+    "react-test-renderer": "16.11.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
