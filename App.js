@@ -1,7 +1,7 @@
 import React from 'react'
-import Navigator from './App/Navigator/index'
 import { Provider as PaperProvider } from 'react-native-paper'
-import theme from './theme'
+import Navigator from './App/Navigator/index'
+import theme from './App/Theme/theme'
 
 export default () => {
   return (

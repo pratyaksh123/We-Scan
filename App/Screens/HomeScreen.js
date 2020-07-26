@@ -1,6 +1,7 @@
+/* eslint-disable no-underscore-dangle */
 import React from 'react'
-import { View, StyleSheet, Image } from 'react-native'
-import { Appbar, Menu, Button, Divider, Text } from 'react-native-paper'
+import { View, StyleSheet } from 'react-native'
+import { Appbar, Menu, Divider } from 'react-native-paper'
 import EmptyDocumentComponent from '../Components/EmptyDocumentComponent'
 import Fab from '../Components/FAB'
 
@@ -45,6 +46,7 @@ const HomeScreen = ({ navigation }) => {
           }
         >
           <Menu.Item onPress={() => {}} title="Item 1" />
+          <Divider />
           <Menu.Item onPress={() => {}} title="Item 2" />
           <Divider />
           <Menu.Item onPress={() => {}} title="Item 3" />
