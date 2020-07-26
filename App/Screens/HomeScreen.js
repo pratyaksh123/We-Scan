@@ -20,6 +20,7 @@ const styles = StyleSheet.create({
 const HomeScreen = ({ navigation }) => {
   const [visible, setVisible] = React.useState(false)
 
+  // eslint-disable-next-line no-console
   const _handleSearch = () => console.log('Searching')
 
   const _handleMenu = () => setVisible(true)
