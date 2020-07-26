@@ -10,8 +10,8 @@ If you run into any errors , refer to the Environment setup on the official Reac
 * ### Clone the repository
 > Download this repository `or`
 ```
-git clone https://github.com/pclubiitj/iitj-canteen.git
-cd iitj-canteen
+git clone https://github.com/pratyaksh123/We-Scan
+cd We-Scan
 ```
 * ### Install [yarn](https://yarnpkg.com/en/docs/install)
 > Yarn is a dependency manager built by facebook and google. It is a more efficient and reliable (thanks to yarn.lock) alternative of npm.
