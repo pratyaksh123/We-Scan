@@ -15,7 +15,7 @@ const Fab = () => (
   <FAB
     style={styles.fab}
     large
-    icon="plus"
+    icon="camera"
     // eslint-disable-next-line no-console
     onPress={() => console.log('Pressed')}
   />

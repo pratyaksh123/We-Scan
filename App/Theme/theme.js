@@ -1,4 +1,4 @@
-import { DefaultTheme } from 'react-native-paper'
+import { DefaultTheme, configureFonts } from 'react-native-paper'
 
 const spacingUnit = 8
 
@@ -81,8 +81,26 @@ const borderRadius = {
   300: 8,
 }
 
+const fontConfig = {
+  default: {
+    regular: {
+      fontFamily: 'OpenSans-Regular',
+      fontWeight: 'normal',
+    },
+    medium: {
+      fontFamily: 'OpenSans-SemiBold',
+      fontWeight: 'normal',
+    },
+    light: {
+      fontFamily: 'OpenSans-Light',
+      fontWeight: 'normal',
+    },
+  },
+}
+
 const theme = {
   ...DefaultTheme,
+  fonts: configureFonts(fontConfig),
   roundness: 2,
   colors: {
     ...DefaultTheme.colors,
@@ -98,9 +116,6 @@ const theme = {
   },
   borderRadius,
   spacing: (size) => {
-    // mimics website's theme spacing function
-    // can be provided with only one arg unlike website which supports upto to 4
-    // because react native doesn't support padding: '2 3', '2 3 4', '4 5 6 7'
     if (!Number.isInteger(size) && size !== 0.5) {
       throw Error(
         'Invalid size passed to theme.spacing (only ints and 0.5 allowed)'

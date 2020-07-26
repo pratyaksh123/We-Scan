@@ -1,12 +1,12 @@
 import React from 'react'
 import { createStackNavigator } from 'react-navigation-stack'
 import { createAppContainer } from 'react-navigation'
-import HomeScreen from '../Screens/HomeScreen'
+import Drawer from './Drawer'
 
 const AppStack = createStackNavigator(
   {
-    Home: {
-      screen: HomeScreen,
+    Drawer: {
+      screen: Drawer,
     },
   },
   {
