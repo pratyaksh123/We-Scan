@@ -1,5 +1,20 @@
 import React from 'react'
-import { Appbar, Menu, Button, Divider } from 'react-native-paper'
+import { View, StyleSheet, Image } from 'react-native'
+import { Appbar, Menu, Button, Divider, Text } from 'react-native-paper'
+import EmptyDocumentComponent from '../Components/EmptyDocumentComponent'
+import Fab from '../Components/FAB'
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  imageStyle: {
+    height: 150,
+    width: 150,
+  },
+})
 
 const HomeScreen = ({ navigation }) => {
   const [visible, setVisible] = React.useState(false)
@@ -35,6 +50,10 @@ const HomeScreen = ({ navigation }) => {
           <Menu.Item onPress={() => {}} title="Item 3" />
         </Menu>
       </Appbar.Header>
+      <View style={styles.container}>
+        <EmptyDocumentComponent />
+        <Fab />
+      </View>
     </>
   )
 }
