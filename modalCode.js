@@ -63,6 +63,7 @@ class App extends React.Component {
 
     return tf.tensor3d(buffer, [height, width, 3])
   }
+
   classifyImage = async () => {
     try {
       const fileUri = this.state.image.uri
@@ -82,7 +83,7 @@ class App extends React.Component {
 
   selectImage = async () => {
     try {
-      let response = await ImagePicker.launchImageLibraryAsync({
+      const response = await ImagePicker.launchImageLibraryAsync({
         mediaTypes: ImagePicker.MediaTypeOptions.All,
         allowsEditing: true,
         aspect: [4, 3],
