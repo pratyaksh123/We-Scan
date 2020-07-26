@@ -22,6 +22,7 @@
     "react/jsx-curly-newline": "off", // dont enforce no new line before {}
     "react/forbid-prop-types": "off", // allow proptypes.object validation
     "react/jsx-wrap-multilines": "off", // conflicts with prettier
-    "react/no-danger": "off" // expect html to be sanitized
+    "react/no-danger": "off", // expect html to be sanitized
+    "react/display-name": "off"
   }
 }

@@ -16,6 +16,6 @@ const AppStack = createStackNavigator(
 
 const AppContainer = createAppContainer(AppStack)
 
-const Navigator = <AppContainer />
-
-export default Navigator
+export default () => {
+  return <AppContainer />
+}
