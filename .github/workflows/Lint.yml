@@ -23,7 +23,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: setup and test
         run: |
-          cd frontend/mobile/ylurn
           yarn install
           yarn run prettier-tests
           yarn run eslint-tests
