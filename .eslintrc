@@ -1,18 +1,27 @@
 {
   "parserOptions": {
-    "es6": true,
-    "ecmaVersion": 9,
     "sourceType": "module",
+    "allowImportExportEverywhere": true,
     "ecmaFeatures": {
-      "jsx": true,
-      "experimentalObjectRestSpread": true
+      "jsx": true
     }
   },
-  "extends": ["plugin:prettier/recommended"],
+  "extends": [
+    "airbnb",
+    "plugin:react/recommended",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
 
-  "plugins": ["prettier"],
+  "plugins": ["react-native"],
   "parser": "babel-eslint",
   "rules": {
-    "prettier/prettier": "error"
+    "react/jsx-filename-extension": "off", // allow jsx in .js files
+    "react/jsx-props-no-spreading": "off", // allow props spreading (for external library customisation)
+    "react/prop-types": "off", // don't force prop validation
+    "react/jsx-curly-newline": "off", // dont enforce no new line before {}
+    "react/forbid-prop-types": "off", // allow proptypes.object validation
+    "react/jsx-wrap-multilines": "off", // conflicts with prettier
+    "react/no-danger": "off" // expect html to be sanitized
   }
 }

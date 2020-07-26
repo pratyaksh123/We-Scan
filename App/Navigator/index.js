@@ -1,7 +1,7 @@
 import React from 'react'
 import { createStackNavigator } from 'react-navigation-stack'
-import HomeScreen from '../Screens/HomeScreen'
 import { createAppContainer } from 'react-navigation'
+import HomeScreen from '../Screens/HomeScreen'
 
 const AppStack = createStackNavigator(
   {
@@ -16,6 +16,6 @@ const AppStack = createStackNavigator(
 
 const AppContainer = createAppContainer(AppStack)
 
-export default () => {
-  return <AppContainer />
-}
+const Navigator = <AppContainer />
+
+export default Navigator
