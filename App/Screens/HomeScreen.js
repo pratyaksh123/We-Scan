@@ -55,7 +55,7 @@ const HomeScreen = ({ navigation }) => {
       </Appbar.Header>
       <View style={styles.container}>
         <EmptyDocumentComponent />
-        <Fab />
+        <Fab navigation={navigation} />
       </View>
     </>
   )
