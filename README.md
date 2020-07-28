@@ -41,6 +41,7 @@ react-native run-android
 |[Pratyaksh Tyagi](https://github.com/pratyaksh123)|Freshman|Electrical Engineering|
 |[Rohan Singh](https://github.com/rohansingh9001)| Freshman| Electrical Engineering|
 |[Darshit Jain](https://github.com/DarshitJain04)|Freshman|Electrical Engineering|
+|[Puru Raj](https://github.com/Puru-Raj)|Freshman|Electrical Engineering|
 
 ##### Steps to join
 
