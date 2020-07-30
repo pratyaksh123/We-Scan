@@ -1,4 +1,5 @@
-# We-Scan ![Mobile Linter Tests](https://github.com/pratyaksh123/We-Scan/workflows/Mobile%20Linter%20Tests/badge.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+#  We-Scan ![ic_launcher](https://user-images.githubusercontent.com/55044774/88903680-ac2d2a80-d271-11ea-9df4-e97714710f2f.png)
+# ![Mobile Linter Tests](https://github.com/pratyaksh123/We-Scan/workflows/Mobile%20Linter%20Tests/badge.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 A mobile app that allows iOS and Android devices to be used as image scanners
 
 ## Steps to setup locally and run:
