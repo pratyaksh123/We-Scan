@@ -46,7 +46,12 @@ const HomeScreen = ({ navigation }) => {
             />
           }
         >
-          <Menu.Item onPress={() => {}} title="Item 1" />
+          <Menu.Item
+            onPress={() => {
+              navigation.navigate('Scanner')
+            }}
+            title="Camera"
+          />
           <Divider />
           <Menu.Item onPress={() => {}} title="Item 2" />
           <Divider />
@@ -55,7 +60,7 @@ const HomeScreen = ({ navigation }) => {
       </Appbar.Header>
       <View style={styles.container}>
         <EmptyDocumentComponent />
-        <Fab />
+        <Fab navigation={navigation} />
       </View>
     </>
   )
