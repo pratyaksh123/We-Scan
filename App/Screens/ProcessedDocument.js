@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, Text, StyleSheet, Image, Dimensions } from 'react-native'
+import { View, StyleSheet, Image, Dimensions } from 'react-native'
 
 const styles = StyleSheet.create({
   container: {
@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   },
 })
 
-const ImageView = ({ navigation }) => {
+const ProcessedDocumentScreen = ({ navigation }) => {
   console.log(navigation.getParam('image'))
   return (
     <View style={styles.container}>
@@ -25,4 +25,4 @@ const ImageView = ({ navigation }) => {
   )
 }
 
-export default ImageView
+export default ProcessedDocumentScreen
